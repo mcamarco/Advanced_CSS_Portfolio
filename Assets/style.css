@@ -1,21 +1,23 @@
 /* Universal Selector */
 * {
     font-family: "Geneva", 'Times New Roman', "sans serif";
-    background-color: #13293d;
 }
 
 header {
-
-}
+    background-color: #13293d;
+    position: relative;
     
+}
+
 
 img {
     background-color: #eaeaed;
     border: 1px solid #9799a7;
-    margin: 8px 0 0 20px;
-    padding: 4px;
     border-radius: 75%;
+    width: 250px;
     float: right;
+
+       
 }
 
 #subtitle {
@@ -48,6 +50,7 @@ h1 {
     margin-bottom: 10px;
     text-align: left;
     color: #fff;
+    display: inline;
 }
 
 h2 {
@@ -62,13 +65,15 @@ h2 {
 }
 
 
-.right {
+aside {
     /* remove color & fix alignment + flex?*/
+    display: block;
     background-color: #eaeaed;
     padding: 10px;
     flex: 0 0 300px;
     box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
+    float: inherit;
 }
 
 footer {
