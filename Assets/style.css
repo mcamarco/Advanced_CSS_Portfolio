@@ -1,0 +1,83 @@
+/* Universal Selector */
+* {
+    font-family: "Geneva", 'Times New Roman', "sans serif";
+}
+
+header {
+    background-color: #13293d;
+}
+
+.selfie {
+    display: flex:
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+header {
+    /* adjust img and alignment */
+    text-align: left;
+    color: #fff;
+
+}
+
+#subtitle {
+    /* fix alignment */
+    font-style: oblique;
+    text-align: right;
+
+
+}
+
+/* fix alignment */
+nav {
+        display: flex;
+    background-color: #13293d;
+
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.left {
+    /* remove color and fix alignment + f*/
+    background-color: red;
+}
+
+.right {
+    /* remove color & fix alignment + flex?*/
+    background-color: aqua;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    background: #13293d;
+    margin-top: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    main,
+    nav {
+        flex-direction: column;
+    }
+}
