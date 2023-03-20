@@ -1,28 +1,21 @@
 /* Universal Selector */
 * {
     font-family: "Geneva", 'Times New Roman', "sans serif";
-}
-
-header {
     background-color: #13293d;
 }
 
-.selfie {
-    display: flex:
-}
+header {
 
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    text-align: left;
-    color: #fff;
 }
+    
 
-h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    /* remove color and fix alignment + f*/
-    background-color: red;
+img {
+    background-color: #eaeaed;
+    border: 1px solid #9799a7;
+    margin: 8px 0 0 20px;
+    padding: 4px;
+    border-radius: 75%;
+    float: right;
 }
 
 #subtitle {
@@ -32,19 +25,9 @@ h2 {
     color: white;
 }
 
-img {
-    background: #eaeaed;
-    border: 1px solid #9799a7;
-    margin: 8px 0 0 20px;
-    padding: 4px;
-    border-radius: 75%;
-    float: right;
-    flex:end;
- }
-
-/* fix alignment */
+/* Navigation - fix alignment*/
 nav {
-        display: flex;
+    display: flex;
     background-color: #13293d;
 
 }
@@ -60,9 +43,32 @@ nav a:hover {
     color: black;
 }
 
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #fff;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    /* remove color and fix alignment + f*/
+    background-color: red;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+}
+
+
 .right {
     /* remove color & fix alignment + flex?*/
-    background-color: aqua;
+    background-color: #eaeaed;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
 }
 
 footer {
