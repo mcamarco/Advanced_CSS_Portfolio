@@ -1,6 +1,5 @@
 /* Universal Code */
 * {
-    background: gray;
     
 }
 
@@ -9,19 +8,10 @@
 
 }
 
-/* Professional Headshot */
-img {
-    background-color: #eaeaed;
-    border: 5px solid #e8630a;
-    border-radius: 75%;
-    width: 250px;
-    float: right;
-}
-
 /* Header */
 .container-header {
     display: flex;
-
+    justify-content:space-around;
 
 }
 
