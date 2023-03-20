@@ -16,8 +16,6 @@ img {
     border-radius: 75%;
     width: 250px;
     float: right;
-
-       
 }
 
 #subtitle {
@@ -36,8 +34,6 @@ nav {
 
 nav a {
     color: white;
-    padding: 14px 20px;
-    text-decoration: none;
 }
 
 nav a:hover {
@@ -45,13 +41,6 @@ nav a:hover {
     color: black;
 }
 
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    text-align: left;
-    color: #fff;
-    display: inline;
-}
 
 h2 {
     font-size: 1.5rem;
