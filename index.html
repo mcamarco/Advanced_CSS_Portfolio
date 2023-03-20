@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>Mickey Camarco</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
 
 <main>
@@ -23,13 +23,17 @@
     </section>
 
     <!-- Navigation Bar: Need to make links functional-->
-    <nav>
-        <a href="#">About Me</a>
-        <a href="#">Work</a>
-        <a href="#">Contact Me</a>
+    <nav class="nav" id="navbutton">
+        <ul>
+            <a href="#aboutme">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contactme">Contact Me</a>
+    <!-- add link to resume page, not a CSS situation -->
+            <a href="Resume">Resume</a>
     </nav>
 
     <section>
+        <a id="aboutme"></a>
         <h2 class="section">About Me</h2>
         <article id="information">
             Highly motivated, self-disciplined individual with a passion for technology and a desire to continuously
@@ -40,10 +44,13 @@
     </section>
 
     <section>
+        <a id="work"></a>
         <h2 class="section">Work</h2>
         <article id="information">
             <ul>
-                <li> image - title of work - link to repo
+                <!--<img src="URL">  -->
+                <li> <a href="https://github.com/mcamarco/Advanced_CSS_Portfolio"><img
+                            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"></a>
                 <li> image - title of work - link to repo
                 <li> image - title of work - link to repo
             </ul>
@@ -51,6 +58,7 @@
     </section>
 
     <section>
+        <a id="contactme"></a>
         <h2 class="information">Contact Me</h2>
         <ul>
             <article id="section descr"></article>
