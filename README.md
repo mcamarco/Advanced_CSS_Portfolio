@@ -29,6 +29,8 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+###
+Mockup: https://lucid.app/lucidspark/25dc0535-44eb-4038-a3f8-23103b189111/edit?view_items=KKuHSGC52g7j&invitationId=inv_10578fd3-4ef7-4c90-b0e6-aca514c1fcf7
 
 ### Technical Acceptance Criteria: 
 * Satisfies all of the above acceptance criteria.
