@@ -1,7 +1,6 @@
 /* Universal Code */
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
 }
 
 /* Root - Color Variables */
@@ -40,7 +39,7 @@ header {
 }
 
 /* Professional Headshot */
-img {
+#headshot{
     width: 250px;
     border-radius: 75%;
     float: right;
@@ -77,6 +76,7 @@ nav a:hover {
 
 body {
     padding: 40px;
+    background-color: black;
 }
 
 main {
@@ -85,83 +85,44 @@ main {
     flex-direction: column;
 }
 
-h2 {
+.container-section-header{
     background-color: white;
-    /* display: flex;
-    text-align: left; */
-} 
-
-.container-about {
-    display: flex;
-    flex-direction: row;
-    }
-
-.aboutdetails {
-  background-color: white;
-  display: flex;
-  /* flex-grow: 4; */
-}
-
-.aboutme a {
-    display: flex;
-    flex-grow: 3;
-}
-
-
-/* /* about me section  */
-/* .container-about {
     display: flex;
     align-items: center;
+    padding-right: 50px;
+}
+
+.about-me-details{
+    flex: 1 1 0;
+    text-align: justify;
     background-color: white;
-    margin: 0 auto;
-    width: 95%;
-    align-items: flex-end;
-    justify-content: space-between;
-    height: 85px;
-    flex-wrap: wrap;
- /* /* adjust with flex direction and media queries  */
+    padding: 25px
+}
 
-/* 
-.aboutdetails {
-    display: flex;
-    background-color: rgba(255, 0, 0, 0.288);;
-}
- */
-/* 
-.container-work {
-    display: flex;
-     background-color: white; */
-    
- /* /* adjust with flex direction and media queries  */
-
-/* Main - About Me, Work, Contact Me Sections 
-.container {
-    background-color: #385170;
-    color: #ececec;
-    border-radius: 5px;
-}
-/* about me section 
-.container-about {
-    display: flex;
-        align-items: center;
-    margin: 0 auto;
-    width: 95%;
-    justify-content: space-between;
-    height: 85px;
-    /* adjust with flex direction and media queries 
-    flex-wrap:wrap;
-}
 #aboutme {
-    flex-basis: 15%;
-    border-right: 5px solid #142d4c;
-    background-color: #9fd3c7;
-    color: #142d4c;
-    font-weight: bolder;
-    display: block;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
-.aboutdetails {
-    flex-basis: 80%;
+.container-section-work{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.work-details{
+    flex: 1 1 0;
+    text-align: justify;
+    background-color: white;
+    padding: 25px
+}
+
+#PortfolioDesign {
+}
+
+.divider{
+    border: 2px solid red;
+    width: 90%;
 }
