@@ -39,9 +39,10 @@ header {
 }
 
 /* Professional Headshot */
-#headshot{
+#headshot {
     width: 250px;
     border-radius: 75%;
+    border: 5px solid red;
     float: right;
 }
 
@@ -85,44 +86,85 @@ main {
     flex-direction: column;
 }
 
-.container-section-header{
-    background-color: white;
-    display: flex;
-    align-items: center;
-    padding-right: 50px;
-}
-
-.about-me-details{
-    flex: 1 1 0;
-    text-align: justify;
-    background-color: white;
-    padding: 25px
-}
-
-#aboutme {
+#leftside {
     display: flex;
     flex-wrap: wrap;
-
 }
 
-.container-section-work{
+/* Section Header */
+.container-section-header {
     background-color: white;
     display: flex;
     align-items: center;
     padding-right: 50px;
 }
 
-.work-details{
+/* About Me Section */
+.about-me-details {
     flex: 1 1 0;
     text-align: justify;
     background-color: white;
     padding: 25px
 }
 
-#PortfolioDesign {
+/* Work Section */
+.container-section-work {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
 }
 
-.divider{
+.work-details {
+    display: flex;
+    background-color: white;
+    padding: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+/* largest image on left side */
+#large-img {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    padding: 5px
+}
+#large-img:hover {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    padding: 5px;
+   text-align: center;
+    padding-top: 0px;
+    color: white;
+    overflow: hidden;
+    background: #C04848; 
+    
+    
+}
+
+#small-img {
+    display: flex;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+}
+
+
+/* Contact Me Section */
+.contact-me-details ul {
+    display: flex;
+    padding: 25px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.divider {
     border: 2px solid red;
     width: 90%;
 }
+
