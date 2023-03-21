@@ -1,82 +1,94 @@
 /* Universal Code */
 * {
-    background: gray;
-    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 /* Root - Color Variables */
-:root {
-
-}
-
-/* Professional Headshot */
-img {
-    background-color: #eaeaed;
-    border: 5px solid #e8630a;
-    border-radius: 75%;
-    width: 250px;
-    float: right;
-}
+:root {}
 
 /* Header */
 .container-header {
     display: flex;
-
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    background-color: white;
+    justify-content: space-between;
 
 }
 
-/* Business Process Automation Expert & Full Stack Web Developer
-About Me Work Contact Me Resume */
-.top-header {
-display: flex;
+header{
+    background-color: white;
 }
 
-.firstname {
-    font-size: 45px;
+.fullname {
+    font-size: 75px;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: white;
 }
 
+.subtitle {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: white;
+}
 /* Professional Headshot */
 img {
-    background-color: #eaeaed;
-    border: 5px solid #e8630a;
-    border-radius: 75%;
     width: 250px;
     float: right;
 }
 
 /* Navigation Bar */
-nav {
-    background-color: #142d4c;
-    list-style-type: none;
-    margin: 0;
-    padding: 5px;
-    border-radius: 5px;
 
+.navbar {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
 }
 
 /* Navagation Options */
 nav a {
-    color: white;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
+    color: black;
+    font-weight: bolder;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+  }
 
 /* Hovering response for navigation options */
 nav a:hover {
-    background-color: #9fd3c7;
-    color: #142d4c;
+    background-color: red;
+    color: white;
     font-weight: bolder;
 }
 
-/* Main - About Me, Work, Contact Me Sections */
+
+
+
+
+
+
+
+
+
+/* Main - About Me, Work, Contact Me Sections 
 .container {
     background-color: #385170;
     color: #ececec;
     border-radius: 5px;
 }
-/* about me section */
+/* about me section 
 .container-about {
     display: flex;
         align-items: center;
@@ -84,7 +96,7 @@ nav a:hover {
     width: 95%;
     justify-content: space-between;
     height: 85px;
-    /* adjust with flex direction and media queries */
+    /* adjust with flex direction and media queries 
     flex-wrap:wrap;
 }
 #aboutme {
@@ -101,7 +113,3 @@ nav a:hover {
 .aboutdetails {
     flex-basis: 80%;
 }
-
-
-
-
