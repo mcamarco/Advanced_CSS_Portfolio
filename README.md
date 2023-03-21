@@ -30,7 +30,8 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ###
-Mockup: 
+Mockup: https://github.com/mcamarco/Advanced_CSS_Portfolio/blob/main/Assets/images/Portfolio.jpeg
+****
 
 ### Technical Acceptance Criteria: 
 * Satisfies all of the above acceptance criteria.

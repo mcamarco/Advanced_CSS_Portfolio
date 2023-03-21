@@ -42,6 +42,7 @@ header {
 /* Professional Headshot */
 img {
     width: 250px;
+    border-radius: 75%;
     float: right;
 }
 
@@ -74,20 +75,41 @@ nav a:hover {
     font-weight: bolder;
 }
 
+body {
+    padding: 40px;
+}
 
 main {
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
     background-color: white;
+    /* display: flex;
+    text-align: left; */
+} 
+
+.container-about {
     display: flex;
-    text-align: left;
+    flex-direction: row;
+    }
+
+.aboutdetails {
+  background-color: white;
+  display: flex;
+  /* flex-grow: 4; */
+}
+
+.aboutme a {
+    display: flex;
+    flex-grow: 3;
 }
 
 
 /* /* about me section  */
-.container-about {
+/* .container-about {
     display: flex;
     align-items: center;
     background-color: white;
@@ -96,22 +118,21 @@ h2 {
     align-items: flex-end;
     justify-content: space-between;
     height: 85px;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
  /* /* adjust with flex direction and media queries  */
-}
 
+/* 
 .aboutdetails {
     display: flex;
-    color: aquamarine;
+    background-color: rgba(255, 0, 0, 0.288);;
 }
-
-
+ */
+/* 
 .container-work {
     display: flex;
-     background-color: white;
-   
+     background-color: white; */
+    
  /* /* adjust with flex direction and media queries  */
-}
 
 /* Main - About Me, Work, Contact Me Sections 
 .container {
