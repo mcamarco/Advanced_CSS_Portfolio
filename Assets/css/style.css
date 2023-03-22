@@ -128,18 +128,17 @@ main {
     width: 500px;
     height: 600px;
     display: flex;
-    padding: 5px
+    padding: 5px;
 }
 #large-img:hover {
     width: 500px;
     height: 600px;
     display: flex;
     padding: 5px;
-   text-align: center;
+    text-align: center;
     padding-top: 0px;
-    color: white;
     overflow: hidden;
-    background: #C04848; 
+    opacity: 15%; 
     
     
 }
