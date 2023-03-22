@@ -10,7 +10,7 @@
 .container-header {
     display: flex;
     border: 5px solid black;
-    border-radius: 10px;
+    border-radius: 5%;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: white;
@@ -62,7 +62,7 @@ nav a {
     font-weight: bolder;
     border: 1px solid black;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 5%;
     margin-top: 5px;
     margin-bottom: 5px;
     background-color: white;
@@ -169,4 +169,19 @@ main {
     width: 90%;
 }
 
+#button {
+    color: black;
+    font-weight: bolder;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+  }
 
+  #button:hover {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+  }
